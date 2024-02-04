@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Student Name</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        .navbar {
+            background-color: #4CAF50;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add more styles for responsiveness */
+        @media only screen and (max-width: 600px) {
+            .navbar a {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+            }
+        }
+
+        /* Add more styles for different screen sizes */
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <!-- Navigation Bar -->
+
+    <!-- Header -->
+    <table id="header" border="0" width="100%" cellpadding="10" cellspacing="0" bgcolor="#4CAF50">
+        <tr>
+            <td align="center">
+                <font face="Comic sans MS" size="4" color="white">
+                    <b>Viraag Borundiya</b>
+                </font>
+            </td>
+        </tr>
+    </table>
+    <!-- Header -->
+
+    <!-- Home -->
+    <table id="home" border="1" width="100%" cellpadding="10" cellspacing="0" bgcolor="black">
+        <tr>
+            <td align="center">
+                <h3>
+                    <font face="Times New Roman" size="4" color="#ffffff">
+                        Hi, I'm Viraag Borundiya, a B.E. pursuing student at PICT Pune.
+                    </font>
+                </h3>
+            </td>
+        </tr>
+    </table>
+    <!-- Home -->
+
+    <!-- About -->
+    <table id="about" border="0" width="100%" cellpadding="10" cellspacing="0" bgcolor="black">
+        <tr>
+            <td align="center">
+                <font face="Verdana" size="4" color="#4CAF50">
+                    About Me
+                    <hr color="#4CAF50" width="50%">
+                </font>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="100%" align="center">
+                <img src="img.jpg" alt="Student Image" width="50%">
+                <font face="Verdana" size="3" color="white">
+                    <p>
+                        Hello! I'm a B.E. pursuing student at PICT Pune. I have a passion for coding and
+                        learning new technologies. My areas of interest include Web Development, Data
+                        Structures, and Algorithms. This portfolio website showcases some of my projects and
+                        achievements.
+                    </p>
+                    <p>
+                        Feel free to explore and get in touch!
+                    </p>
+                    <hr color="white">
+                    <p>
+                        <b>Contact:</b> student.email@example.com
+                    </p>
+                </font>
+            </td>
+        </tr>
+    </table>
+    <!-- About -->
+
+    <!-- Projects -->
+    <table id="projects" border="0" width="100%" cellpadding="10" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td align="center">
+                <font face="Verdana" size="4" color="black">
+                    Projects
+                    <hr color="black" width="50%">
+                </font>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <font face="Verdana" size="3" color="black">
+                    <ul>
+                        <li>BMI Calculator <a href="#" style="text-decoration:none"> ➲ </a></li>
+                        <li>Calculator <a href="#" style="text-decoration:none"> ➲ </a></li>
+                        <!-- Add more projects with similar structure -->
+                    </ul>
+                    <hr color="#c2c0c3">
+                </font>
+            </td>
+        </tr>
+    </table>
+    <!-- Projects -->
+
+    <!-- Achievements -->
+    <table id="achievements" border="0" width="100%" cellpadding="10" cellspacing="0" bgcolor="black">
+        <tr>
+            <td align="center">
+                <font face="Verdana" size="4" color="#4CAF50">
+                    Achievements
+                    <hr color="#4CAF50" width="50%">
+                </font>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <font face="Verdana" size="3" color="white">
+                    <ul>
+                        <li>
+                            <b>Intern at GeeksforGeeks.</b>
+                            <ul>
+                                <li>December, 2020 - Present.</li>
+                                <li>Write technical articles on programming related topics.</li>
+                            </ul>
+                        </li>
+                        <!-- Add more achievements with similar structure -->
+                    </ul>
+                </font>
+            </td>
+        </tr>
+    </table>
+    <!-- Achievements -->
+
+    <!-- Contact -->
+    <table id="contact" border="0" width="100%" cellpadding="10" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td align="center">
+                <font face="Verdana" size="4" color="black">
+                    Contact
+                    <hr color="black" width="50%">
+                </font>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="number">Number:</label>
+                    <input type="tel" id="number" name="number" required><br><br>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                    <button type="submit">
+                        <font face="Verdana" size="4" color="black">
+                            <b>Submit</b>
+                        </font>
+                    </button>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <!-- Contact -->
+
+    <!-- Footer -->
+    <table id="footer" border="0" width="100%" cellpadding="10" cellspacing="0" bgcolor="#4CAF50">
+        <tr>
+            <td align="center">
+                <font face="Verdana" color="white" size="3">
+                    © Copyright 2024 All rights reserved.
+                </font>
+            </td>
+        </tr>
+    </table>
+    <!-- Footer -->
+
+</body>
+
+</html>
